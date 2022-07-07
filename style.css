@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@font-face {
+    font-family: 'Apercu';
+    src: url(./fonts/Apercu-Regular.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Touche';
+    src: url(./fonts/Touche-Bold.woff) format('woff');
+}
+
+
+/* @media only screen and (min-width: 1400px){
+    .container{max-width:1450px!important;}
+}
+
+@media only screen and (min-width: 1200px){
+.container{max-width:1450px!important;}
+} */
+
+/* .container{max-width:1400px!important;} */
+/* .container-sm{width: 1250px;} */
+
+.container-md{padding-left: 45px; padding-right: 45px;}
+body{font-family: "Apercu";}
+
+ul li {
+    list-style-type: none;
+}
+
+.btn-yellow{background-color: #ffca39; color: white;padding: 10px 30px; border: none; border-radius: 7px; font-size: 14px; font-weight: bold;}
+.btn-yellow:hover{background-color: #ffba03;}
+.icon{height: 55px; width: 55px;}
+
+/* Header */
+
+.contact-bar{ background-color: #015981;}
+.contact-bar ul{display: flex; justify-content: end; align-items: center; margin: 0px;}
+.contact-bar ul li { margin: 10px 0px 10px 25px;padding-right: 25px;  font-size: 15px; border-right: 1px solid white;}
+.contact-bar ul li:last-child{border-right: none; padding-right: 0px;}
+.contact-bar ul li span i{padding-right: 10px;}
+.contact-bar .sm-icon span{padding-left: 20px;}
+.contact-bar ul li a{color: white; text-decoration: none;}
+.contact-bar ul li a:hover{color: #ffca39;}
+
+.header .nav-sec{background-color: white; display: flex; align-items: center; padding: 12px 0px;}
+.header .nav-sec .logo{padding-top: 7px;}
+.header .nav-bar{ display: flex; justify-content:end; font-family: "Apercu";}
+.header .nav-bar ul li{ padding: 0px 20px;} 
+.header .nav-bar ul li a{ color: #626365; text-decoration: none; padding-bottom: 5px; font-size: 16px;}
+.header .nav-bar ul li a:hover{ color: #ffca39;}
+.header .nav-bar button{margin-left: 50px;}
+.header .navbar button{position: absolute; top:-35px; right: 7px;}
+
+.header .sm-menu .sub-menu{ background-color: white;}
+.header .sm-menu .sub-menu li{padding: 10px 25px; border: none;}
+.header .sm-menu ul.sub-menu{border-radius: 5px;}
+
+/* SM MENU  */
+
+    @media (min-width: 768px) {
+
+        /* Switch to desktop layout
+        -----------------------------------------------
+        These transform the menu tree from
+        collapsible to desktop (navbar + dropdowns)
+        -----------------------------------------------*/
+        /* start... (it's not recommended editing these rules) */
+        .sm-menu ul{position:absolute;width:12em;}
+        .sm-menu li{float:left;}
+        .sm-menu.sm-rtl li{float:right;}
+        .sm-menu ul li,.sm-mytheme.sm-rtl ul li,.sm-mytheme.sm-vertical li{float:none;}
+        .sm-menu a{white-space:nowrap;}
+        .sm-menu ul a,.sm-mytheme.sm-vertical a{white-space:normal;}
+        .sm-menu .sm-nowrap > li > a,.sm-mytheme .sm-nowrap > li > :not(ul) a{white-space:nowrap;}
+        /* ...end */
+    
+    
+        /* Your rules to style the menu in desktop view here... */
+    }
+
+/* Top  sec */
+
+.top-sec{background-image: url(./images/bg-main.jpg); background-size: cover; height: 83vh; color: white; position: relative;display: flex; align-items: center;}
+.top-sec .overlay{background-color: #303030; opacity: .5; height: 100%; width: 100%; top: 0; left: 0;position: absolute;}
+.top-sec .content{position: absolute;}
+.top-sec .t-content{padding-left: 140px;} 
+.top-sec .t-content h1{font-size: 48px; font-weight: bold;}
+.top-sec .t-content p{font-size: 20px; padding: 15px 0px;}
+.top-sec .t-content button{padding: 15px 30px ;}
+
+/* Vision section */
+
+.v-sec h1{color:black; font-size: 36px;padding-top: 54px;padding-bottom: 54px; text-align: center; color: #1e253a;}
+.v-sec p{font-size: 18px;}
+.v-sec{padding-bottom: 20px;}
+.v-sec .v-content {padding-bottom: 56px;}
+.v-sec .v-txt{text-align: center;}
+.v-sec .v-txt h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
+
+/* Skill Section */
+.s-sec .card{border: none;  padding: 70px; height: 100%;}
+.s-sec .card-body{padding: 0px;}
+.s-sec .card button{border: none; color: #ffca39; background-color: white; font-weight: bold; font-size: 19px;}
+.s-sec img {margin-bottom: 20px;}
+.s-sec h1{color:black; font-size: 36px;padding-top: 54px;padding-bottom: 54px; text-align: center; color: #1e253a;}
+.s-sec h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
+.s-sec p{font-size: 18px;}
+
+/* Tech Section */
+
+.tech-sec{padding: 50px 0px;}
+.tech-sec .container{padding: 0px 70px;}
+.tech-sec .icon-tech{padding: 30px 0px;}
+
+/* Industrial Section */
+.ind-sec{padding: 0px 60px 60px; border-bottom:3px solid #ffca39;}
+/* .ind-sec .card{margin: 60px;} */
+.ind-sec h3{font-family:"Montserrat"; font-size: 40px;}
+.ind-sec  h1{color:black; font-size: 36px;padding-top: 54px;padding-bottom: 54px; text-align: center; color: #1e253a;}
+.ind-sec h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
+.ind-sec .card-body{padding: 1rem 3rem; border-left: 5px solid #ffca39; box-shadow: 0px 0px 10px 0px lightgray;}
+.ind-sec .card{ padding: 20px 10px; border: none; height: 100%;}
+.ind-sec .container{padding: 0px 65px;}
+.ind-sec .row {margin-bottom: 30px;}
+
+/* Consult Section */
+.con-sec{padding: 80px 0px;}
+.con-sec .content{padding-left: 140px;}
+.con-sec  h1{font-size: 40px; font-weight: bold; font-family: "Touche";}
+.con-sec button {border: 5px solid #015981; color: #015981; padding: 7px 18px ; font-size: 23px; background-color: white;} 
+.con-sec p{ font-size: 20px;  padding-top: 10px;}
+
+/* Footer */
+.footer{ background-color: #015981; padding: 80px 0px;}
+.footer p{padding: 40px 40px 40px 0px; font-size: 19px; color: #b2ccd9;}
+
+.footer h3{color: #b2ccd9; font-size: 20px; padding-bottom:  10px;}
+.footer ul{padding: 10px 0px;}
+.footer ul li{color:white; padding: 6px 0px; font-family: "Roboto"; font-size: 14px;}
+
+.footer .f-icon ul li a {color: #b2ccd9; padding: 20px;}
+.footer .f-icon ul li a:first-child{padding-left: 0px;}
+
+
+@media only screen and (max-width: 992px){
+    .contact-bar{display: none;}
+    .nav-btn{display: none;}
+    .top-sec{height: 70vh;}
+    .top-sec .t-content{padding-left: 0px;} 
+    .header .nav-bar{display: block;}
+    .header .nav-bar ul li{ padding: 5px 20px; text-align: center; border-bottom: 2px solid #ffca39;}
+    .s-sec .card{padding: 0px;margin-top: 70px;}
+    .s-sec h1{padding-bottom: 0px;}
+    .s-sec img{text-align: center;}
+    .ind-sec{padding: 0px;}
+    .ind-sec .container {padding: 0px;}
+    .con-sec .content {padding: 0px;}
+}
+
+
+
