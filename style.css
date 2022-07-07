@@ -146,6 +146,28 @@ ul li {
 .footer .f-icon ul li a:first-child{padding-left: 0px;}
 
 
+/* Internal Page */
+
+.cad-sec{padding: 40px 0px;}
+.cad-sec .b-crums span{padding-right:10px ; color: gray; font-size: 16px;}
+.cad-sec .b-crums span i{color: black; font-size: 20px;}
+.cad-sec h1{font-size: 48px; font-weight: bold;}
+.cad-sec h2{font-size: 38px; padding-bottom:20px ;}
+.cad-sec p{font-size: 18px;}
+.cad-sec .cad-content{text-align: center; padding: 90px 120px;}
+
+.cad-sec h3{font-size: 22px;font-weight: bold; padding: 21px 0px;}
+.cad-sec .card-body{padding: 1rem 3rem; box-shadow: 0px 0px 10px 0px lightgray; text-align: center;}
+.cad-sec .card{ padding: 20px 10px; border: none; height: 100%;}
+
+.cad-sec .oit-sec{padding-top:100px;}
+.cad-sec .oit-sec h2{padding-bottom: 40px;}
+.cad-sec .oit-sec span a{ color: #ffca39; text-decoration: none; padding-top: 20px; display: block; background-color: white; font-weight: bold; font-size: 19px;}
+.cad-sec .oit-sec .oit-img{display: flex; justify-content: end;}
+.cad-sec  img{width: 80%;}
+
+
+
 @media only screen and (max-width: 992px){
     .contact-bar{display: none;}
     .nav-btn{display: none;}
@@ -159,7 +181,7 @@ ul li {
     .ind-sec{padding: 0px;}
     .ind-sec .container {padding: 0px;}
     .con-sec .content {padding: 0px;}
+    .cad-sec .cad-content { padding: 30px 0px; }
+    .cad-sec .oit-sec .oit-img { justify-content: center;  }
+    .cad-sec .oit-sec span{display: block; padding-bottom:20px ;}
 }
-
-
-
