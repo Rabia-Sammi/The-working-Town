@@ -112,7 +112,7 @@ ul li {
 
 /* Tech Section */
 
-.tech-sec{padding: 50px 0px;}
+.tech-sec{padding: 50px 0px; background-color: #f7f7f7;}
 .tech-sec .container{padding: 0px 70px;}
 .tech-sec .icon-tech{padding: 30px 0px;}
 
@@ -136,7 +136,7 @@ ul li {
 
 /* Footer */
 .footer{ background-color: #015981; padding: 80px 0px;}
-.footer p{padding: 40px 40px 40px 0px; font-size: 19px; color: #b2ccd9;}
+.footer p{padding: 40px 40px 40px 0px; font-size: 16px; color: #b2ccd9; font-family: "Roboto";}
 
 .footer h3{color: #b2ccd9; font-size: 20px; padding-bottom:  10px;}
 .footer ul{padding: 10px 0px;}
@@ -149,15 +149,15 @@ ul li {
 /* Internal Page */
 
 .cad-sec{padding: 40px 0px;}
-.cad-sec .b-crums span{padding-right:10px ; color: gray; font-size: 16px;}
-.cad-sec .b-crums span i{color: black; font-size: 20px;}
+.cad-sec .b-crums span{padding-right:10px ; color: gray; font-size: 15px; font-family: "Roboto";}
+.cad-sec .b-crums span i{color: black; font-size: 14px;}
 .cad-sec h1{font-size: 48px; font-weight: bold;}
 .cad-sec h2{font-size: 38px; padding-bottom:20px ;}
 .cad-sec p{font-size: 18px;}
 .cad-sec .cad-content{text-align: center; padding: 90px 120px;}
 
 .cad-sec h3{font-size: 22px;font-weight: bold; padding: 21px 0px;}
-.cad-sec .card-body{padding: 1rem 3rem; box-shadow: 0px 0px 10px 0px lightgray; text-align: center;}
+.cad-sec .card-body{padding: 1rem 3rem; box-shadow: 0px 0px 21px -5px lightgrey; text-align: center; border-radius: 8px;} 
 .cad-sec .card{ padding: 20px 10px; border: none; height: 100%;}
 
 .cad-sec .oit-sec{padding-top:100px;}
