@@ -13,24 +13,8 @@
 }
 
 
-/* @media only screen and (min-width: 1400px){
-    .container{max-width:1450px!important;}
-}
-
-@media only screen and (min-width: 1200px){
-.container{max-width:1450px!important;}
-} */
-
-/* .container{max-width:1400px!important;} */
-/* .container-sm{width: 1250px;} */
-
-.container-md{padding-left: 45px; padding-right: 45px;}
 body{font-family: "Apercu";}
-
-ul li {
-    list-style-type: none;
-}
-
+ul li {    list-style-type: none;}
 .btn-yellow{background-color: #ffca39; color: white;padding: 10px 30px; border: none; border-radius: 7px; font-size: 14px; font-weight: bold;}
 .btn-yellow:hover{background-color: #ffba03;}
 .icon{height: 55px; width: 55px;}
@@ -56,8 +40,8 @@ ul li {
 .header .navbar button{position: absolute; top:-35px; right: 7px;}
 
 .header .sm-menu .sub-menu{ background-color: white;}
-.header .sm-menu .sub-menu li{padding: 10px 25px; border: none;}
-.header .sm-menu ul.sub-menu{border-radius: 5px;}
+.header .sm-menu .sub-menu li{padding-top: 20px; border: none;}
+.header .sm-menu ul.sub-menu{border-radius: 5px;box-shadow: 0px 0px 21px -5px lightgrey; border-radius: 5px; margin-top: 15px!important; padding:10px;}
 
 /* SM MENU  */
 
@@ -87,7 +71,7 @@ ul li {
 .top-sec{background-image: url(./images/bg-main.jpg); background-size: cover; height: 83vh; color: white; position: relative;display: flex; align-items: center;}
 .top-sec .overlay{background-color: #303030; opacity: .5; height: 100%; width: 100%; top: 0; left: 0;position: absolute;}
 .top-sec .content{position: absolute;}
-.top-sec .t-content{padding-left: 140px;} 
+.top-sec .t-content{padding-left:104px ;}
 .top-sec .t-content h1{font-size: 48px; font-weight: bold;}
 .top-sec .t-content p{font-size: 20px; padding: 15px 0px;}
 .top-sec .t-content button{padding: 15px 30px ;}
@@ -101,19 +85,22 @@ ul li {
 .v-sec .v-txt{text-align: center;}
 .v-sec .v-txt h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
 
+
 /* Skill Section */
-.s-sec .card{border: none;  padding: 70px; height: 100%;}
+.s-sec {padding-bottom: 80px;}
+.s-sec .card{border: none;  height: 100%; padding: 60px; box-shadow: 0px 0px 3px lightgrey;}
+.s-sec .col-lg-4{padding-bottom: 40px;}
+/* .s-sec .col-lg-4:nth-child(3n+2){padding: 0px 70px;} */
 .s-sec .card-body{padding: 0px;}
 .s-sec .card button{border: none; color: #ffca39; background-color: white; font-weight: bold; font-size: 19px;}
 .s-sec img {margin-bottom: 20px;}
-.s-sec h1{color:black; font-size: 36px;padding-top: 54px;padding-bottom: 54px; text-align: center; color: #1e253a;}
+.s-sec h1{color:black; font-size: 36px;padding: 75px; text-align: center; color: #1e253a;}
 .s-sec h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
 .s-sec p{font-size: 18px;}
 
 /* Tech Section */
 
 .tech-sec{padding: 50px 0px; background-color: #f7f7f7;}
-.tech-sec .container{padding: 0px 70px;}
 .tech-sec .icon-tech{padding: 30px 0px;}
 
 /* Industrial Section */
@@ -124,38 +111,42 @@ ul li {
 .ind-sec h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
 .ind-sec .card-body{padding: 1rem 3rem; border-left: 5px solid #ffca39; box-shadow: 0px 0px 10px 0px lightgray;}
 .ind-sec .card{ padding: 20px 10px; border: none; height: 100%;}
-.ind-sec .container{padding: 0px 65px;}
+
 .ind-sec .row {margin-bottom: 30px;}
 
 /* Consult Section */
-.con-sec{padding: 80px 0px;}
-.con-sec .content{padding-left: 140px;}
+.con-sec{padding: 80px 0px; background-color: #f7f7f7;}
 .con-sec  h1{font-size: 40px; font-weight: bold; font-family: "Touche";}
 .con-sec button {border: 5px solid #015981; color: #015981; padding: 7px 18px ; font-size: 23px; background-color: white;} 
+.con-sec button:hover{background-color: #015981; color: white;}
 .con-sec p{ font-size: 20px;  padding-top: 10px;}
 
 /* Footer */
-.footer{ background-color: #015981; padding: 80px 0px;}
+.footer{ background-color: #015981; padding: 80px 0px 30px 0px; }
 .footer p{padding: 40px 40px 40px 0px; font-size: 16px; color: #b2ccd9; font-family: "Roboto";}
-
-.footer h3{color: #b2ccd9; font-size: 20px; padding-bottom:  10px;}
+.footer h3{color: #b2ccd9; font-size: 18px;}
 .footer ul{padding: 10px 0px;}
-.footer ul li{color:white; padding: 6px 0px; font-family: "Roboto"; font-size: 14px;}
-
-.footer .f-icon ul li a {color: #b2ccd9; padding: 20px;}
-.footer .f-icon ul li a:first-child{padding-left: 0px;}
+.footer ul li{padding: 6px 0px; }
+.footer .f-icon ul{display: flex;}
+.footer .f-icon ul li{border-radius: 50%; background-color:#1e3f52; border: none;padding: 2px;text-align: center; font-size: 14px; margin: 4px 8px;}
+.footer .f-icon ul li:first-child{margin-left: 0px;}
+.footer .f-icon ul li span i {width:40px; height: 38px; top: 9px; position: relative;color: white; font-size: 20px;}
+.footer ul li a{text-decoration: none; color: white; font-size: 14px;}
+/* 
+.footer .f-icon ul li {color: #b2ccd9; padding: 20px;}
+.footer .f-icon ul li a:first-child{padding-left: 0px;} */
 
 
 /* Internal Page */
 
-.cad-sec{padding: 40px 0px;}
+.cad-sec{padding: 40px 0px; font-family: "Apercu";}
+.cad-sec .b-crums ul{padding: 0px;}
 .cad-sec .b-crums span{padding-right:10px ; color: gray; font-size: 15px; font-family: "Roboto";}
 .cad-sec .b-crums span i{color: black; font-size: 14px;}
 .cad-sec h1{font-size: 48px; font-weight: bold;}
 .cad-sec h2{font-size: 38px; padding-bottom:20px ;}
 .cad-sec p{font-size: 18px;}
 .cad-sec .cad-content{text-align: center; padding: 90px 120px;}
-
 .cad-sec h3{font-size: 22px;font-weight: bold; padding: 21px 0px;}
 .cad-sec .card-body{padding: 1rem 3rem; box-shadow: 0px 0px 21px -5px lightgrey; text-align: center; border-radius: 8px;} 
 .cad-sec .card{ padding: 20px 10px; border: none; height: 100%;}
