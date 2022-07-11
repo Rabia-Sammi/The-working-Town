@@ -92,9 +92,9 @@ ul li {    list-style-type: none;}
 .s-sec .col-lg-4{padding-bottom: 40px;}
 /* .s-sec .col-lg-4:nth-child(3n+2){padding: 0px 70px;} */
 .s-sec .card-body{padding: 0px;}
-.s-sec .card button{border: none; color: #ffca39; background-color: white; font-weight: bold; font-size: 19px;}
+.s-sec .card button{border: none; color: #ffca39; background-color: white; font-weight: bold; font-size: 19px; padding: 0px;}
 .s-sec img {margin-bottom: 20px;}
-.s-sec h1{color:black; font-size: 36px;padding: 75px; text-align: center; color: #1e253a;}
+.s-sec h1{color:black; font-size: 36px;padding: 75px; text-align: center;}
 .s-sec h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
 .s-sec p{font-size: 18px;}
 
@@ -117,6 +117,7 @@ ul li {    list-style-type: none;}
 /* Consult Section */
 .con-sec{padding: 80px 0px; background-color: #f7f7f7;}
 .con-sec  h1{font-size: 40px; font-weight: bold; font-family: "Touche";}
+.con-sec .con-btn{justify-content: end; display: flex;}
 .con-sec button {border: 5px solid #015981; color: #015981; padding: 7px 18px ; font-size: 23px; background-color: white;} 
 .con-sec button:hover{background-color: #015981; color: white;}
 .con-sec p{ font-size: 20px;  padding-top: 10px;}
@@ -138,15 +139,16 @@ ul li {    list-style-type: none;}
 
 
 /* Internal Page */
+.heading-sec{padding: 40px 0px;font-family: "Apercu"; background-color: #f7f7f7;}
+.heading-sec .b-crums ul{padding: 0px;}
+.heading-sec .b-crums span{padding-right:10px ; color: gray; font-size: 15px; font-family: "Roboto";}
+.heading-sec .b-crums span i{color: black; font-size: 14px;}
+.heading-sec h1{font-size: 48px; font-weight: bold;}
 
-.cad-sec{padding: 40px 0px; font-family: "Apercu";}
-.cad-sec .b-crums ul{padding: 0px;}
-.cad-sec .b-crums span{padding-right:10px ; color: gray; font-size: 15px; font-family: "Roboto";}
-.cad-sec .b-crums span i{color: black; font-size: 14px;}
-.cad-sec h1{font-size: 48px; font-weight: bold;}
+.cad-sec{ font-family: "Apercu";}
 .cad-sec h2{font-size: 38px; padding-bottom:20px ;}
 .cad-sec p{font-size: 18px;}
-.cad-sec .cad-content{text-align: center; padding: 90px 120px;}
+.cad-sec .cad-content{text-align: center; padding: 75px 120px;}
 .cad-sec h3{font-size: 22px;font-weight: bold; padding: 21px 0px;}
 .cad-sec .card-body{padding: 1rem 3rem; box-shadow: 0px 0px 21px -5px lightgrey; text-align: center; border-radius: 8px;} 
 .cad-sec .card{ padding: 20px 10px; border: none; height: 100%;}
@@ -166,12 +168,13 @@ ul li {    list-style-type: none;}
     .top-sec .t-content{padding-left: 0px;} 
     .header .nav-bar{display: block;}
     .header .nav-bar ul li{ padding: 5px 20px; text-align: center; border-bottom: 2px solid #ffca39;}
-    .s-sec .card{padding: 0px;margin-top: 70px;}
+    .s-sec .card{padding: 30px;margin-top: 70px;}
     .s-sec h1{padding-bottom: 0px;}
     .s-sec img{text-align: center;}
+    .tech-sec .icon-tech{text-align: center;}
     .ind-sec{padding: 0px;}
-    .ind-sec .container {padding: 0px;}
-    .con-sec .content {padding: 0px;}
+    .con-sec .con-btn{justify-content: center;}
+    /* internal page */
     .cad-sec .cad-content { padding: 30px 0px; }
     .cad-sec .oit-sec .oit-img { justify-content: center;  }
     .cad-sec .oit-sec span{display: block; padding-bottom:20px ;}
