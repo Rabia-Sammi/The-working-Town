@@ -93,6 +93,7 @@ ul li {    list-style-type: none;}
 /* .s-sec .col-lg-4:nth-child(3n+2){padding: 0px 70px;} */
 .s-sec .card-body{padding: 0px;}
 .s-sec .card button{border: none; color: #ffca39; background-color: white; font-weight: bold; font-size: 19px; padding: 0px;}
+.s-sec .card button:hover{color: #ffba03; transform: scale(1.05);}
 .s-sec img {margin-bottom: 20px;}
 .s-sec h1{color:black; font-size: 36px;padding: 75px; text-align: center;}
 .s-sec h2{font-size: 22px;font-weight: bold; padding: 21px 0px;}
@@ -133,6 +134,7 @@ ul li {    list-style-type: none;}
 .footer .f-icon ul li:first-child{margin-left: 0px;}
 .footer .f-icon ul li span i {width:40px; height: 38px; top: 9px; position: relative;color: white; font-size: 20px;}
 .footer ul li a{text-decoration: none; color: white; font-size: 14px;}
+.footer ul li a:hover{text-shadow: 0px 1px 1px white;}
 /* 
 .footer .f-icon ul li {color: #b2ccd9; padding: 20px;}
 .footer .f-icon ul li a:first-child{padding-left: 0px;} */
@@ -150,12 +152,13 @@ ul li {    list-style-type: none;}
 .cad-sec p{font-size: 18px;}
 .cad-sec .cad-content{text-align: center; padding: 75px 120px;}
 .cad-sec h3{font-size: 22px;font-weight: bold; padding: 21px 0px;}
-.cad-sec .card-body{padding: 1rem 3rem; box-shadow: 0px 0px 21px -5px lightgrey; text-align: center; border-radius: 8px;} 
+.cad-sec .card-body{padding: 1rem 3rem; box-shadow: 0px 0px 4px lightgrey; text-align: center; border-radius: 8px;} 
 .cad-sec .card{ padding: 20px 10px; border: none; height: 100%;}
 
 .cad-sec .oit-sec{padding-top:100px;}
 .cad-sec .oit-sec h2{padding-bottom: 40px;}
 .cad-sec .oit-sec span a{ color: #ffca39; text-decoration: none; padding-top: 20px; display: block; background-color: white; font-weight: bold; font-size: 19px;}
+.cad-sec .oit-sec span a:hover{color:#ffba03;}
 .cad-sec .oit-sec .oit-img{display: flex; justify-content: end;}
 .cad-sec  img{width: 80%;}
 
